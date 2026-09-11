@@ -24,7 +24,7 @@
         "test:fail-ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"yarn test:fail-build --quiet && npx http-server ./test-static --port 6006 --silent\" \"wait-on tcp:6006 && yarn test:fail\""
     },
     "devDependencies": {
-        "@angular/common": "~15.2.2",
+        "@angular/common": "~20.3.28",
         "@angular/compiler": "~15.2.2",
         "@angular/core": "~15.2.2",
         "@angular/platform-browser": "~15.2.2",
